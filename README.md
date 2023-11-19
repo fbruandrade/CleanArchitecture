@@ -8,8 +8,8 @@ The setup follows important modern development principles such as high test cove
 
 The application extends the typical *Weather Forecast* example provided in default .NET project templates and contains the following components:
 
-- **API** - ASP.NET 7 REST API with Swagger support
-- **Angular SPA** - Angular SPA hosted using ASP.NET 7
+- **API** - ASP.NET 8 REST API with Swagger support
+- **Angular SPA** - Angular SPA hosted using ASP.NET 8
 - **Database** - SQL Server database integration via Entity Framework Core
 - **Migrations** - Code-First database migrations managed using a console application
 
@@ -64,7 +64,7 @@ docker-compose --profile dev up -d
 
 The following steps are required to get your Developer machine ready for working with this project. 
 
-This project uses NET 7.0 and Angular. Everything you need to get started should be included below - if there are any gaps, please do add them in.
+This project uses NET 8.0 and Angular. Everything you need to get started should be included below - if there are any gaps, please do add them in.
 
 ## IDE
 
@@ -84,7 +84,7 @@ The solution is broken down into the following projects:
 - **CleanArchitecture.Application** - Application layer containing Commands/Queries/Domain Event Handlers
 - **CleanArchitecture.Core** - Domain layer containing Entities and Domain Events
 - **CleanArchitecture.Infrastructure** - Infrastructure layer for all external integration e.g. database, notifications, serialization
-- **CleanArchitecture.Web** - Angular SPA hosted using ASP.NET 7
+- **CleanArchitecture.Web** - Angular SPA hosted using ASP.NET 8
 - **CleanArchitecture.Hosting** - Hosting cross-cutting concerns e.g. configuration and logging
 - **CleanArchitecture.Migrations** - Code-First EF database migrations and migration runner
 
